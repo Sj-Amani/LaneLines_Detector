@@ -1,8 +1,6 @@
 # **Finding Lane Lines on the Road** 
 
-## Writeup Template
-
-### You can use this file as a template for your writeup if you want to submit it as a markdown file. But feel free to use some other method and submit a pdf if you prefer.
+## Writeup
 
 ---
 
@@ -15,15 +13,26 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[image1]: ./examples/grayscale.jpg "Grayscale"
-
+[image1]: ./test_images_output/writeUp/01-gray.jpg "Grayscale"
+[image2]: ./test_images_output/writeUp/02-blur_gray.jpg "Blur Grayscale"
+[image3]: ./test_images_output/writeUp/03-edges.jpg "Edges"
+[image4]: ./test_images_output/writeUp/04-edges_white_yellow.jpg "Edges + White + Yellow"
+[image5]: ./test_images_output/writeUp/05-lines_edges.jpg "Detected Lines"
 ---
 
 ### Reflection
 
-### 1. Describe your pipeline. As part of the description, explain how you modified the draw_lines() function.
+### 1. Pipeline (code) description
 
-My pipeline consisted of 5 steps. First, I converted the images to grayscale, then I .... 
+My pipeline consisted of 5 steps: 
+
+1. I converted the images to grayscale, then using a Gaussian smoothing method, I can provide a gray image with a low amount of Gaussian noises.
+
+![alt text][image1]
+
+![alt text][image2]
+
+The second step is to find edges. For this, I used Canny edge detection method.   
 
 In order to draw a single line on the left and right lanes, I modified the draw_lines() function by ...
 
@@ -45,3 +54,4 @@ Another shortcoming could be ...
 A possible improvement would be to ...
 
 Another potential improvement could be to ...
+
