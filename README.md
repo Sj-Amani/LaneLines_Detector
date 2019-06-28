@@ -33,6 +33,6 @@ Referencing The Project
 ---
 If you like my code and you want to use it in your project, please refer it like this:
 
-`Amani, Sajjad. "Finding Lane Lines on the Road." GitHub, 28 June 2019, https://github.com/Sj-Amani/LaneLines_Detector .`
+`Amani, Sajjad. "Finding Lane Lines on the Road." GitHub, 28 June 2019, https://github.com/Sj-Amani/LaneLines_Detector`
 
 
