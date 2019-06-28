@@ -5,13 +5,13 @@
 
 Overview
 ---
-This project is a part of my "Self-Driving Car Engineer Nanodegree" course at Udacity.  
+Note: This project is a part of my "Self-Driving Car Engineer Nanodegree" course at Udacity.  
 
 When we drive, we use our eyes to decide where to go.  The lines on the road that show us where the lanes are act as our constant reference for where to steer the vehicle.  Naturally, one of the first things we would like to do in developing a self-driving car is to automatically detect lane lines using an algorithm.
 
 In this project you can detect lane lines in images using Python and OpenCV.  OpenCV means "Open-Source Computer Vision", which is a package that has many useful tools for analyzing images.  
 
-In this project, there are two important files: a file containing project code (lane_line_detector.ipynb) and a file containing a brief write up explaining your solution (writeup.md).
+In this project, there are two important files: a file containing project code (lane_line_detector.ipynb) and a file containing a brief write up explaining my solution (writeup.md).
 
 
 The Project
@@ -27,6 +27,11 @@ Jupyter is an Ipython notebook where you can run blocks of code and see results 
 
 `> jupyter notebook`
 
-A browser window will appear showing the contents of the current directory.  Click on the file called "lane_line_detector.ipynb".  Another browser window will appear displaying the notebook.  Follow the instructions in the notebook to complete the project.  
+A browser window will appear showing the contents of the current directory.  Click on the file called "lane_line_detector.ipynb".  Another browser window will appear displaying the notebook.  Follow the instructions in the notebook to understand and run the project compeletely by your self.  
+
+Referencing The Project
+---
+If you like my code and you want to use it in your project, please refer it like this:
+Amani, Sajjad. "Finding Lane Lines on the Road." GitHub, 28 June 2019, https://github.com/Sj-Amani/LaneLines_Detector.
 
 
