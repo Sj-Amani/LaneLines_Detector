@@ -50,7 +50,7 @@ Canny Edges
 ![alt text][image3]
 
 
-3. These results are good but we ca improve it by adding the white and yellow points information. But, how?
+3. These results are good but we can improve it by adding the white and yellow points information. But, how?
 I propose the following method to extract the white and yellow points that we need to add the edges result:
 
 #### white color info  --> provided by gray scale image (using graymask function in lane_line_detector.ipynb)
